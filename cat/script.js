@@ -66,18 +66,17 @@ const cardItems = [
     img2:"img/portofolio2.png",
     title1: "Portofolio",
     miniTitle: "Web Development",
-    desc1:"I've created this portfolio to showcase my projects, highlighting expertise in web development and UI/UX design. It provides a glimpse into my skills and serves as an avenue for exploring potential opportunities.",
-    desc2: "Through this project, I honed my design skills using Tailwind CSS and JavaScript. I customized the visuals to match my preferred theme of black and pink, leading to improved clarity in expressing my ideas.",
+    desc1:"I've created this portfolio to showcase my projects, highlighting expertise in web development and UI design. It provides a glimpse into my skills and serves as an avenue for exploring potential opportunities.",
+    desc2: "Through this project, I honed my design skills using Tailwind CSS and JavaScript. I customized the visuals to match my preferred theme of black, green and blue, leading to improved clarity in expressing my ideas.",
     btn1:"HTML",
     btn2:"Tailwind",
     btn3:"Javascript",
-    link:"https://vynaavalerie.github.io/pinaa/",
-    link2:"gh repo clone VynaaValerie/pinaa "
+    link:"https://github.com/CatarinaaTomaz/my-portofolio"
   }
 ];
 
 window.addEventListener("DOMContentLoaded", function () {
-  displayCards(cardItems); // Memanggil fungsi untuk menampilkan semua kartu
+  displayCards(cardItems); // 
 });
 
 function displayCards(cardItems) {
